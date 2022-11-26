@@ -31,7 +31,7 @@ rosd::rosd! {
     öffndle(kistn) funktion vielleicht(i: u32) -> Möglichkeit<Eagebnis<u32, Zeichnkettn>> {
         wenn i % 2 == 1 {
             wenn i == 42 {
-                Ebsend(Schlechd(Zeichnkettn::vo("So ein schmare...")))
+                Ebsend(Schlechd(Zeichnkettn::vo("So a schmare...")))
             } sunst {
                 Ebsend(Guad(33))
             }
@@ -52,7 +52,7 @@ rosd::rosd! {
 
         entsprich x {
             42 => {
-                gsoßrad!("Wienerschnitzel")
+                gsoßrad!("Wienerschnizl")
             }
             _ => gsoßrad!("Na gehd doch")
         }
@@ -71,7 +71,6 @@ rosd::rosd! {
             } sunst {
                 12
             };
-            gsoßrad!("{}", i)
         }
 
         nutz std::vgl::Ordnung;

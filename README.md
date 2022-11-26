@@ -3,7 +3,7 @@
 ![](https://github.com/michidk/rost/blob/hauptzweig/logo.jpg)
 
 Aren't you _miad_ from writing Rust programs in English? Do you like saying
-"so ein schmare" a lot? Would you like to try something different, in an exotic and
+"so a schmare" a lot? Would you like to try something different, in an exotic and
 funny-sounding language? Would you want to bring some Bavarian touch to your
 programs?
 
@@ -13,7 +13,7 @@ Bavarian idioms.
 
 Here's an example of what can be achieved with Rosd:
 
-### trait and impl (aka Konvention und Umsetzung)
+### trait and impl (aka Konvention und Umsezung)
 
 ```rust
 rosd::rosd! {
@@ -53,14 +53,14 @@ rosd::rosd! {
 See the [examples](./examples/src/main.rs) to get a rough sense of the whole
 syntax. Des wars oida.
 
-## Seibst ist der Coder
+## Seibst is da Coder
 
 First of all, _mease dia_ for considering participating to this joke, the
 Bavarian government will thank you later! Feel free to throw in a few identifiers
 here and there, and open a pull-request against the `hauptdrum` (Bavarian for
 `main`) branch.
 
-## But why would you do des
+## But why would you do *des*
 
 Ja warum an ned oida?
 
