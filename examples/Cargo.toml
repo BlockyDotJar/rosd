@@ -1,0 +1,7 @@
+[package]
+name = "rosd_examples"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rosd = { path = "../rosd_proc_macro" }
