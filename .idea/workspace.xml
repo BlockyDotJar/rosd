@@ -8,27 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="36bae920-3e34-4dd9-8a17-4db48af0d01c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LIZENZ" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Makefile.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rosd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rosd_proc_macro/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rosd_proc_macro/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rosd_proc_macro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rosd_proc_macro/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2I0LE5791VJhHKSoaEQ74NQ7y32" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,7 +35,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/hirni/IdeaProjects/Rust_Test",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Jetbrains/IdeaProjects/Rosd",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "org.rust.hideNoCargoProjectNotificationsC:/Users/hirni/IdeaProjects/Rosd/Cargo.toml": "true",
     "org.rust.hideNoCargoProjectNotificationsC:/Users/hirni/IdeaProjects/Rosd/examples/Cargo.toml": "true",
