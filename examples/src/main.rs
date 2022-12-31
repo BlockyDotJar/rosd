@@ -1,26 +1,25 @@
 rosd::rosd! {
     nutz std::grusch::Biachl ois biachl;
 
-    eignschaft Schlisslwert {
-        funktion schreib(&seibst, schlsl: Zeichnkettn, wert: Zeichnkettn);
-        funktion les(&seibst, schlsl: Zeichnkettn) -> Eagebnis<Möglichkeit<&Zeichnkettn>, Zeichnkettn>;
+    eignschafd Schlisslwert {
+        funktion schreib(&seibsd, schlsl: Zeichnkedn, wert: Zeichnkedn);
+        funktion les(&seibsd, schlsl: Zeichnkedn) -> Eagebnis<Möglichkeit<&Zeichnkedn>, Zeichnkedn>;
     }
 
-    statisch änderbar BIACHL: Möglichkeit<biachl<Zeichnkettn, Zeichnkettn>> = Nixend;
+    stadisch ändabar BIACHL: Möglichkeit<biachl<Zeichnkedn, Zeichnkedn>> = Nixend;
 
     struktur Konkret;
 
     umstz Schlisslwert fia Konkret {
-
-        funktion schreib(&seibst, schlsl: Zeichnkettn, wert: Zeichnkettn) {
-            loss biachl = gferleh {
+        funktion schreib(&seibsd, schlsl: Zeichnkedn, wert: Zeichnkedn) {
+            loss biachl = gfealeh {
                 BIACHL.hoi_oda_füg_ei_mid(Standard::standard)
             };
             biachl.eifügn(schlsl, wert);
         }
 
-        funktion les(&seibst, schlsl: Zeichnkettn) -> Eagebnis<Möglichkeit<&Zeichnkettn>, Zeichnkettn> {
-            wenn loss Ebsend(biachl) = gferleh { BIACHL.ois_ref() } {
+        funktion les(&seibsd, schlsl: Zeichnkedn) -> Eagebnis<Möglichkeit<&Zeichnkedn>, Zeichnkedn> {
+            wenn loss Ebsend(biachl) = gfealeh { BIACHL.ois_ref() } {
                 Guad(biachl.hoi(&schlsl))
             } sunst {
                 Schlechd("Hoi des biachl.".eina())
@@ -28,10 +27,10 @@ rosd::rosd! {
         }
     }
 
-    öffndle(kistn) funktion vielleicht(i: u32) -> Möglichkeit<Eagebnis<u32, Zeichnkettn>> {
+    öffndle(kisdn) funktion vielleicht(i: u32) -> Möglichkeit<Eagebnis<u32, Zeichnkedn>> {
         wenn i % 2 == 1 {
             wenn i == 42 {
-                Ebsend(Schlechd(Zeichnkettn::vo("So a schmare...")))
+                Ebsend(Schlechd(Zeichnkedn::fo("So a schmare...")))
             } sunst {
                 Ebsend(Guad(33))
             }
@@ -40,15 +39,15 @@ rosd::rosd! {
         }
     }
 
-    asynchron funktion beispiel() {
+    asynchron funktion beispui() {
     }
 
-    asynchron funktion beispiel2() {
-        beispiel().obwoadn;
+    asynchron funktion beispui2() {
+        beispui().obwoadn;
     }
 
     funktion eistieg() {
-        loss änderbar x = 31;
+        loss ändabar x = 31;
 
         entsprich x {
             42 => {
@@ -73,16 +72,17 @@ rosd::rosd! {
             };
         }
 
-        nutz std::vgl::Ordnung;
-        loss _mod7 = vec![0; 100].wieda()
+        nutz std::vgl::Oadnung;
+
+        loss _mod7 = tabein![0; 100].wieda()
             .nimm(50)
-            .zuordnen(|numma| numma %  7)
-            .sammen::<Vec<i32>>()
+            .zuaoadnen(|numma| numma %  7)
+            .samen::<Tabein<i32>>()
             .zu_wieda()
             .foid(0, |a, numma| entsprich numma.vgl(&a) {
-                Ordnung::Mea => a - numma,
-                Ordnung::Wenga => a + numma,
-                Ordnung::Gleich => a,
+                Oadnung::Meah => a - numma,
+                Oadnung::Wenga => a + numma,
+                Oadnung::Gleich => a,
             });
     }
 }

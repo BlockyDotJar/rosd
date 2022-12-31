@@ -19,29 +19,28 @@ Here's an example of what can be achieved with Rosd:
 rosd::rosd! {
     nutz std::grusch::Biachl ois biachl;
 
-    eignschaft Schlisslwert {
-        funktion schreib(&seibst, schlsl: Zeichnkettn, wert: Zeichnkettn);
-        funktion les(&seibst, schlsl: Zeichnkettn) -> Eagebnis<Möglichkeit<&Zeichnkettn>, Zeichnkettn>;
+    eignschafd Schlisslwert {
+        funktion schreib(&seibsd, schlsl: Zeichnkedn, wert: Zeichnkedn);
+        funktion les(&seibsd, schlsl: Zeichnkedn) -> Eagebnis<Möglichkeit<&Zeichnkedn>, Zeichnkedn>;
     }
 
-    statisch änderbar BIACHL: Möglichkeit<biachl<Zeichnkettn, Zeichnkettn>> = Nixend;
+    stadisch ändabar BIACHL: Möglichkeit<biachl<Zeichnkedn, Zeichnkedn>> = Nixend;
 
     struktur Konkret;
 
     umstz Schlisslwert fia Konkret {
-
-        funktion schreib(&seibst, schlsl: Zeichnkettn, wert: Zeichnkettn) {
-            loss biachl = gferleh {
+        funktion schreib(&seibsd, schlsl: Zeichnkedn, wert: Zeichnkedn) {
+            loss biachl = gfealeh {
                 BIACHL.hoi_oda_füg_ei_mid(Standard::standard)
             };
             biachl.eifügn(schlsl, wert);
         }
 
-        funktion les(&seibst, schlsl: Zeichnkettn) -> Eagebnis<Möglichkeit<&Zeichnkettn>, Zeichnkettn> {
-            wenn loss Ebsend(biachl) = gferleh { BIACHL.ois_ref() } {
+        funktion les(&seibsd, schlsl: Zeichnkedn) -> Eagebnis<Möglichkeit<&Zeichnkedn>, Zeichnkedn> {
+            wenn loss Ebsend(biachl) = gfealeh { BIACHL.ois_ref() } {
                 Guad(biachl.hoi(&schlsl))
             } sunst {
-                Schlechd("Hoi des biachl".eina())
+                Schlechd("Hoi des biachl.".eina())
             }
         }
     }
@@ -53,7 +52,7 @@ rosd::rosd! {
 See the [examples](./examples/src/main.rs) to get a rough sense of the whole
 syntax. Des wars oida.
 
-## Seibst is da Coder
+## Seibsd is da Coder
 
 First of all, _mease dia_ for considering participating to this joke, the
 Bavarian government will thank you later! Feel free to throw in a few identifiers

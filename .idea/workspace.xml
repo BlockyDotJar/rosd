@@ -9,6 +9,8 @@
   <component name="ChangeListManager">
     <list default="true" id="36bae920-3e34-4dd9-8a17-4db48af0d01c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/examples/src/main.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rosd_proc_macro/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rosd_proc_macro/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
