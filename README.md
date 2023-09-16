@@ -7,7 +7,7 @@ Aren't you _miad_ from writing Rust programs in English? Do you like saying
 funny-sounding language? Would you want to bring some Bavarian touch to your
 programs?
 
-**rosd** (Bavarian for _Rust_) is here to save your day, as it allows you to
+**Rosd** (Bavarian for _Rust_) is here to save your day, as it allows you to
 write Rust programs in Bavarian, using Bavarian keywords, Bavarian function names and
 Bavarian idioms.
 
@@ -52,14 +52,14 @@ rosd::rosd! {
 See the [examples](./examples/src/main.rs) to get a rough sense of the whole
 syntax. Des wars oida.
 
-## Seibsd is da Coder
+## Seibsd is da Programmiera
 
-First of all, _mease dia_ for considering participating to this joke, the
+First of all, _mease_ for considering participating to this joke, the
 Bavarian government will thank you later! Feel free to throw in a few identifiers
 here and there, and open a pull-request against the `hauptdrum` (Bavarian for
 `main`) branch.
 
-## But why would you do *des*
+## But why would you do *des*?
 
 Ja warum an ned oida?
 
